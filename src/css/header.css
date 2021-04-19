@@ -1,0 +1,46 @@
+:root {
+  --black: #171717;
+  --red: #cf1b1c;
+}
+.padleft_right{
+  padding: 0 9%;
+}
+.headerdiv{
+    width: 100%;
+    background-color: white;
+}
+.headerdiv nav{
+    width: 100%;
+    margin: 0 auto;
+    height: 76px;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+ul.navbar-nav li {
+    margin-left: 20px;
+    text-align: center;
+}
+.navbar-expand-lg .navbar-nav {
+    align-items: center;
+}
+ul.navbar-nav li a{
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 500;
+}
+.logoimg{
+max-width: 100%;
+width: 135px;
+height: auto;
+}
+li.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+ul.navbar-nav li ul li {
+    margin-left: 13px;
+    text-align: left;
+    font-size: 15px;
+}
